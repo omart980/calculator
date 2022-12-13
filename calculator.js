@@ -38,3 +38,4 @@ function operate(operator, x, y){
 
 let operation = operate('divide', 9, 2);
 console.log(operation);
+
