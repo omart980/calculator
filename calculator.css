@@ -4,7 +4,7 @@
     box-shadow: 0px 0px 43px 17px powderblue; /*blur effect and rgba(153,153,153,1)*/
 }
 
-.screen {
+#screen {
     text-align: right; /*text to the right*/
     height: 75px; /*height of screen*/
     line-height: 75px; /*where the text should start */
