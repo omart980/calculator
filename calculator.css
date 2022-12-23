@@ -1,11 +1,11 @@
 .calc_size {
     max-width: 400px; /*height is automatically fixed*/
     margin: 10vh auto 0 auto; /*vh is the viewpoint height and using auto can center the items*/ 
-    box-shadow: 0px 0px 43px 17px powderblue; /*blur effect and rgba(153,153,153,1)*/
+    box-shadow: 0px 0px 43px 17px powderblue; /*blur effect*/
 }
 
 #screen {
-    text-align: right; /*text to the right*/
+    text-align: right; 
     height: 75px; /*height of screen*/
     line-height: 75px; /*where the text should start */
     padding: 16px 8px; /*adds gaps */
@@ -14,14 +14,13 @@
 }
 
 .calc_buttons {
-    display: grid; /*displays a grid layout*/
+    display: grid; 
     border-bottom: 1px solid red; 
     border-left: 1px solid#999;
     border-right: 1px solid#999;
     grid-template-columns: 1fr 1fr 1fr 1fr; /*specifying width of columns*/
 }
 
-/*giving the calculator highlighted lines*/
 .buttons > div {
     border-top: 1px solid #999; /*horizontal*/
     border-right: 1px solid#999; /*vertical*/
@@ -29,14 +28,14 @@
 
 .button {
     border: 1px solid #999; 
-    line-height: 100px; /*height of text (in the middle) */
+    line-height: 100px; 
     text-align: center;
     font-size: 25px;
     cursor: pointer; 
 }
 
 #equal {
-    color: #009fbb; /*overrides white hover*/
+    color: #009fbb; 
 }
 
 .button:hover {
