@@ -3,7 +3,7 @@
 ![Calculator](images/calculator.png)
 
 ## Description
-If you are an alien enthusiast, this is the site for you. You can explore more about famous sightings and interesting facts about alien or UFO lore. 
+Just a simple, yet effective calculator for anyone to use when they are stuck on their math problems. 😁
 
 ### Instructions
 
